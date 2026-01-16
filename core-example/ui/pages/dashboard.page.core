@@ -1,0 +1,5 @@
+{{ define "content" }}
+    <h2>Olá, {{ .user }}!</h2>
+    <p>Seus serviços ativos:</p>
+    {{ template "card" .services }}
+{{ end }}

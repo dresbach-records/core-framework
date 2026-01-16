@@ -1,0 +1,7 @@
+{{ define "content" }}
+    <h2>Área do Cliente</h2>
+    <form action="/login" method="post">
+        <p>Clique no botão para simular o login e acessar o dashboard.</p>
+        <button type="submit">Entrar no Dashboard</button>
+    </form>
+{{ end }}

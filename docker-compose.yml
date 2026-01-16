@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  # Nome do nosso serviço
+  s4-server:
+    # Constrói a imagem a partir do Dockerfile no diretório atual
+    build: .
+    # Mapeia a porta 8080 do contêiner para a porta 8080 do seu computador
+    ports:
+      - "8080:8080"
+    # Monta o diretório atual do seu computador dentro do diretório /app do contêiner
+    # Isso permite que as alterações no seu código local sejam refletidas instantaneamente dentro do contêiner
+    volumes:
+      - .:/app

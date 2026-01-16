@@ -1,0 +1,7 @@
+{{ define "navbar" }}
+<nav>
+    <a href="/">Home</a>
+    <a href="/services">Serviços</a>
+    <a href="/login">Área do Cliente</a>
+</nav>
+{{ end }}

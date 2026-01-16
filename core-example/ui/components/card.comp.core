@@ -1,0 +1,9 @@
+{{ define "card" }}
+<div class="card">
+    <ul>
+        {{ range . }}
+            <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

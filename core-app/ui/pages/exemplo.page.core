@@ -1,0 +1,7 @@
+{{define "content"}}
+<header>
+    <h1>Página de Exemplo</h1>
+    <p>Este é um exemplo de outra página renderizada pelo motor S4.</p>
+    <a href="/">Voltar para a Home</a>
+</header>
+{{end}}

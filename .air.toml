@@ -1,0 +1,25 @@
+# Configurações para o Air - https://github.com/cosmtrek/air
+
+# Diretório raiz do projeto a ser observado.
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  # Comando para construir o binário.
+  cmd = "go build -o ./tmp/main runtime/main.go"
+  # Binário a ser executado.
+  bin = "./tmp/main"
+  # Arquivos e diretórios a serem observados para rebuild.
+  include_ext = ["go", "s4"]
+  # Diretórios a serem ignorados.
+  exclude_dir = ["tmp", "vendor"]
+  # Log do build.
+  log = "air_build.log"
+
+[log]
+  # Mostra o tempo no log.
+  time = true
+
+[misc]
+  # Deleta o binário ao sair.
+  clean_on_exit = true

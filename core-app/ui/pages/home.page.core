@@ -1,0 +1,6 @@
+{{define "content"}}
+<header>
+    <h1>S4-MASTER</h1>
+    <p>Bem-vindo à página inicial.</p>
+</header>
+{{end}}

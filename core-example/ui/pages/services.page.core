@@ -1,0 +1,8 @@
+{{ define "content" }}
+    <h2>Nossos Serviços</h2>
+    <ul>
+        {{ range .services }}
+            <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+{{ end }}
