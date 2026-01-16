@@ -183,7 +183,12 @@ O framework existe para resolver problemas reais, não para seguir tendências.
 - 🟡 Documentação em progresso
 - 🔵 Extensões planejadas
 
-O CORE é desenvolvido intencionalmente com cautela e clareza.
+## Mantido Por
+
+**DRESBACH HOSTING DO BRASIL LTDA**
+- **CNPJ:** 63.187.175/0001-70
+- **Website:** [www.dresbachhosting.com.br](https://www.dresbachhosting.com.br)
+- **Email:** core@dresbachhosting.com.br
 
 ## Licença
 
